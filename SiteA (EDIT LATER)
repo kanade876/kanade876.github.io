@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+    overflow: auto;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+.clearfix {
+    overflow: auto;
+}
+.header, .footer {
+    background-color: #70CBDD;
+    color: white;
+    padding: 25px;
+	font-family: 'Raleway', sans-serif;
+}
+.column {
+    float: left;
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #FFD6BF;
+    color: #020E0C;
+}
+.menu li:hover {
+    background-color: #FBC9C4;
+    color: #ffffff;
+}
+#
+
+</style>
+</head>
+<body>
+
+<center>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+</center>
+
+<div class="header">
+  <h1>Enver Creek Secondary</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li><a href="https://www.surreyschools.ca/schools/envercreek/Pages/default.aspx">Home</a></li>
+      <li><a href="https://www.surreyschools.ca/schools/envercreek/Pages/default.aspx">Teams</a></li>
+      <li><a href="https://www.surreyschools.ca/schools/envercreek/Pages/default.aspx">Department</a></li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>Welcome to the Enver Creek Place</h1>
+    <p>Enver Creek is a place where you can learn and you can learn English and you can learn Math and you can learn Science and you can learn English and you can learn Math and you can learn how to split a run-on sentence.</p>
+    <p>It's free.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Sullivan_Heights_Secondary_%28144_Street%29.jpg" style="float:left;width:480px;height:360px;">
+   </div>
+</div>
+<div class="footer">
+  <p>Footer Text</p>
+</div>
+
+</body>
+</html>
