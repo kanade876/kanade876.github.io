@@ -11,8 +11,14 @@ a:link {
     text-decoration: none;
 }
 a:hover {
-    color: black;
+    color: white;
     text-decoration: none;
+    text-shadow: 3px 2px black;
+}
+ex {
+    width: 400px;
+    height: 800px;
+    text-align: center;
 }
 .clearfix {
     overflow: auto;
@@ -76,16 +82,12 @@ a:hover {
       <li><a href="https://www.surreyschools.ca/schools/envercreek/Pages/default.aspx">Department</a></li>
     </ul>
   </div>
-
-  <div class="column content">
+  <ex class="column content">
     <h1>Welcome to the Enver Creek Place</h1>
     <p>Enver Creek is a place where you can learn and you can learn English and you can learn Math and you can learn Science and you can learn English and you can learn Math and you can learn how to split a run-on sentence.</p>
-    <p>It's free.</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Sullivan_Heights_Secondary_%28144_Street%29.jpg" style="float:left;width:480px;height:360px;">
-   </div>
-</div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Sullivan_Heights_Secondary_%28144_Street%29.jpg" style="float:center;width:480px;height:360px;">
+   </ex>
 <div class="footer">
-  <p>Footer Text</p>
 </div>
 
 </body>
